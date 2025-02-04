@@ -39,7 +39,7 @@ function Card() {
         {/* Student Profile Section */}
         <div className="text-center">
           <img
-            src="https://vierp.s3.ap-south-1.amazonaws.com/cloud/studentprofile/icard/photo/21911174photo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20250204T051216Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=3600&amp;X-Amz-Credential=AKIASPWL33DP5Q6YLL5I%2F20250204%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=8b3de40ce3de6c5c80140f8002cb852a059e7835b1631188f49f2876cb2ff0c9"
+            src="https://vierp.s3.ap-south-1.amazonaws.com/cloud/studentprofile/icard/photo/21911174photo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20250204T054159Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=3600&amp;X-Amz-Credential=AKIASPWL33DP5Q6YLL5I%2F20250204%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=56561c2699aa233fa7943c2ba54f67ed32892951f401332f9cd297595e4fc7d7"
             alt="Student Photo"
             className="w-32 h-40 object-cover mx-auto"
           />
