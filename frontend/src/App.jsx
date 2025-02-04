@@ -18,10 +18,10 @@ function App() {
           <Route path="/" element={<Dashboard />} />
 
           {/* Add routes for FeeReceipt and Card after accessing root */}
-          <Route path="/fee-receipt" element={<FeeReceipt />} />
+          {/* <Route path="/fee-receipt" element={<FeeReceipt />} /> */}
           <Route path="/card" element={<Card />} />
           <Route path="/Accounts" element={<Accounts />} />
-          <Route path="/FeeReceipt" element={<FeeReceipt />} />
+          <Route path="/FeeReceipt" element={<FeeReceipt/>} />
         </Routes>
       </div>
     </Router>
