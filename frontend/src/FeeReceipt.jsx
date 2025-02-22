@@ -1,6 +1,6 @@
 import React from 'react'
-import fee1 from "./assets/Fee1.png"
-import fee2 from "./assets/Fee2.png"
+import fee1 from "../public/Fee1.png"
+import fee2 from "../public/Fee2.png"
 import AppBar from './AppBar'
 
 

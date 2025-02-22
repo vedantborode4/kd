@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import UserProfileCard from './UserProfileCard'; // Import the user profile card component
 import { Link } from 'react-router-dom';
 import Dashboard from './Dashboard';
+import kd1 from "../public/kd1.jpg"
 
 const AppBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false); // State for dropdown visibility
@@ -87,7 +88,7 @@ const AppBar = () => {
           <div className="flex flex-row">
             <button className="flex items-center justify-center py-2 rounded-full bg-transparent">
               <div className="w-10 h-10 rounded-full text-white flex justify-center items-center font-semibold">
-                <img src="https://vierp.s3.ap-south-1.amazonaws.com/cloud/studentprofile/icard/photo/21911174photo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20250204T054159Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=3600&amp;X-Amz-Credential=AKIASPWL33DP5Q6YLL5I%2F20250204%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=56561c2699aa233fa7943c2ba54f67ed32892951f401332f9cd297595e4fc7d7" alt="" className='w-10 h-10 rounded-full'/>
+                <img src={kd1} alt="" className='w-10 h-10 rounded-full'/>
               </div>
             </button>
           </div>

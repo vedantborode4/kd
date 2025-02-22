@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import kd1 from "../public/kd1.jpg"
 
 function UserProfileCard() {
   return (
@@ -17,7 +18,7 @@ function UserProfileCard() {
         <div className="flex-shrink-0">
           <img
             className="w-16 h-16 rounded-full object-cover"
-            src="https://vierp.s3.ap-south-1.amazonaws.com/cloud/studentprofile/icard/photo/21911174photo.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20250204T054159Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=3600&amp;X-Amz-Credential=AKIASPWL33DP5Q6YLL5I%2F20250204%2Fap-south-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=56561c2699aa233fa7943c2ba54f67ed32892951f401332f9cd297595e4fc7d7"
+            src={kd1}
             alt="Profile Picture"
           />
         </div>
