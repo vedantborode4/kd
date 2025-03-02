@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import kd1 from "../public/kd1.jpg"
+import AB from "../public/AB.jpg"
 
 function UserProfileCard() {
   return (
@@ -18,13 +19,13 @@ function UserProfileCard() {
         <div className="flex-shrink-0">
           <img
             className="w-16 h-16 rounded-full object-cover"
-            src={kd1}
+            src={AB}
             alt="Profile Picture"
           />
         </div>
         <div className="ml-4">
-          <h5 className="text-lg font-semibold">KIRAN KORGAONKAR</h5>
-          <p className="text-xs text-gray-500">kiran.21911174@viit.ac.in</p>
+          <h5 className="text-lg font-semibold">AVADHUT BARASKAR</h5>
+          <p className="text-xs text-gray-500">avadhut.22311568@viit.ac.in</p>
         </div>
       </div>
 

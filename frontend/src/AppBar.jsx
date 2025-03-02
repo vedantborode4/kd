@@ -3,6 +3,7 @@ import UserProfileCard from './UserProfileCard'; // Import the user profile card
 import { Link } from 'react-router-dom';
 import Dashboard from './Dashboard';
 import kd1 from "../public/kd1.jpg"
+import AB from "../public/AB.jpg"
 
 const AppBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false); // State for dropdown visibility
@@ -68,7 +69,7 @@ const AppBar = () => {
             onClick={toggleDropdown}
           >
             <div className="w-10 h-10 rounded-full bg-blue-900 text-white flex justify-center items-center font-semibold">
-              KK
+              AB
             </div>
           </button>
 
@@ -88,12 +89,12 @@ const AppBar = () => {
           <div className="flex flex-row">
             <button className="flex items-center justify-center py-2 rounded-full bg-transparent">
               <div className="w-10 h-10 rounded-full text-white flex justify-center items-center font-semibold">
-                <img src={kd1} alt="" className='w-10 h-10 rounded-full'/>
+                <img src={AB} alt="" className='w-10 h-10 rounded-full'/>
               </div>
             </button>
           </div>
           <div className="flex items-center justify-center p-2 rounded-full bg-transparent">
-            <span className='font-bold text-gray-500 text-medium-emphasis'>KIRAN KORGAONKAR</span>
+            <span className='font-bold text-gray-500 text-medium-emphasis'>AVADHUT BARASKAR</span>
           </div>
           {/* Status Chip */}
           <div className="flex">
@@ -106,10 +107,10 @@ const AppBar = () => {
 
         <div>
           <div className="v-col-sm-3 v-col-12 mt-3 font-weight-regular text-medium-emphasis">
-            <span className="font-bold text-gray-500">Registration No.21911174</span>
+            <span className="font-bold text-gray-500">Registration No.22311568</span>
           </div>
           <div className="v-col-sm-3 v-col-12 float-center mt-3">
-            <span className="font-bold text-gray-500">MTech-Computer Engineering</span>
+            <span className="font-bold text-gray-500">BTech-Computer Engineering</span>
           </div>
         </div>
       </header>
