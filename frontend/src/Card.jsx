@@ -1,7 +1,6 @@
 import React from 'react';
 import kd1 from "../public/kd1.jpg"
 import AppBar from './AppBar';
-import AB from "../public/AB.jpg"
 
 function Card() {
   return (
@@ -41,13 +40,13 @@ function Card() {
         {/* Student Profile Section */}
         <div className="text-center">
           <img
-            src={AB}
+            src={kd1}
             alt="Student Photo"
             className="w-32 h-40 object-cover mx-auto"
           />
-          <h5 className="mt-3 text-sm font-semibold">Reg No : 22311568</h5>
-          <h5 className="mt-2 text-lg font-bold">BARASKAR AVDHUT MAHESH</h5>
-          <p className="mt-2 text-lg font-semibold">BACHELOR OF TECHNOLOGY</p>
+          <h5 className="mt-3 text-sm font-semibold">Reg No : 21911174</h5>
+          <h5 className="mt-2 text-lg font-bold">KORGAONKAR KIRAN DILIP</h5>
+          <p className="mt-2 text-lg font-semibold">MASTER OF TECHNOLOGY</p>
         </div>
 
         {/* Barcode Section */}
@@ -81,7 +80,7 @@ function Card() {
               <rect x="142" y="0" width="6" height="30" />
               <rect x="150" y="0" width="2" height="30" />
               <rect x="154" y="0" width="4" height="30" />
-              <text style={{ font: '20px monospace' }} textAnchor="middle" x="79" y="52">22311568</text>
+              <text style={{ font: '20px monospace' }} textAnchor="middle" x="79" y="52">21911174</text>
             </g>
           </svg>
         </div>
